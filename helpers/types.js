@@ -1,0 +1,1 @@
+export const transformType = o => ({id: o.id, label: o.name})

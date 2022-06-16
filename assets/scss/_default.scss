@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body * , html *, html {
+  scrollbar-width: thin;
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  background-color: transparent;
+  font-weight: normal;
+
+  &.modal-open {
+    overflow: hidden !important;
+  }
+}
+
+.root{
+  display: flex;
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
+.page{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a, a:hover, a:focus {
+  outline: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none !important;
+  background-color: transparent;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
